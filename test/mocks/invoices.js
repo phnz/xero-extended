@@ -1,0 +1,1347 @@
+module.exports = {
+  'GET /Invoices': {
+    "Id": "920be7e0-d05b-48f3-aab3-0a612f6800f7",
+    "Status": "OK",
+    "ProviderName": "Test",
+    "DateTimeUTC": "\/Date(1405560689722)\/",
+    "Invoices": [
+      {
+        "Type": "ACCPAY",
+        "InvoiceID": "0032f627-3156-4d30-9b1c-4d3b994dc921",
+        "InvoiceNumber": "9871",
+        "Reference": "",
+        "Payments": [
+          {
+            "PaymentID": "22974891-3689-4694-9ee7-fd2ba917af55",
+            "Date": "\/Date(1398081600000+1200)\/",
+            "Amount": 148.50,
+            "Reference": "Chq 409",
+            "HasAccount": false,
+            "HasValidationErrors": false
+          }
+        ],
+        "CreditNotes": [],
+        "AmountDue": 0.00,
+        "AmountPaid": 148.50,
+        "AmountCredited": 0.00,
+        "HasErrors": false,
+        "IsDiscounted": false,
+        "HasAttachments": false,
+        "Contact": {
+          "ContactID": "d6a384fb-f46f-41a3-8ac7-b7bc9e0b5efa",
+          "Name": "Melrose Parking",
+          "Addresses": [],
+          "Phones": [],
+          "ContactGroups": [],
+          "ContactPersons": []
+        },
+        "DateString": "2014-04-14T00:00:00",
+        "Date": "\/Date(1397390400000+1200)\/",
+        "DueDateString": "2014-04-23T00:00:00",
+        "DueDate": "\/Date(1398168000000+1200)\/",
+        "Status": "PAID",
+        "LineAmountTypes": "Exclusive",
+        "LineItems": [],
+        "SubTotal": 135.00,
+        "TotalTax": 13.50,
+        "Total": 148.50,
+        "UpdatedDateUTC": "\/Date(1221517731500+1200)\/",
+        "CurrencyCode": "AUD",
+        "FullyPaidOnDate": "\/Date(1398081600000+1200)\/"
+      },
+      {
+        "Type": "ACCPAY",
+        "InvoiceID": "673dd7cc-beb7-4697-83d4-0c47cb400cc2",
+        "InvoiceNumber": "",
+        "Reference": "",
+        "Payments": [
+          {
+            "PaymentID": "4d06f609-5200-4364-9c8b-d4379a945252",
+            "Date": "\/Date(1399032000000+1200)\/",
+            "Amount": 974.60,
+            "Reference": "DD # 96013",
+            "HasAccount": false,
+            "HasValidationErrors": false
+          }
+        ],
+        "CreditNotes": [
+          {
+            "CreditNoteID": "7df8949c-b71f-40c0-bbcf-39f2f450f286",
+            "CreditNoteNumber": "03391",
+            "AppliedAmount": 218.90,
+            "DateString": "2014-04-28T00:00:00",
+            "Date": "\/Date(1398600000000+1200)\/",
+            "LineItems": [],
+            "Total": 218.90
+          }
+        ],
+        "AmountDue": 0.00,
+        "AmountPaid": 974.60,
+        "AmountCredited": 218.90,
+        "HasErrors": false,
+        "IsDiscounted": false,
+        "HasAttachments": false,
+        "Contact": {
+          "ContactID": "d0cd2c4f-18a0-4f7c-a32a-2db00f29d298",
+          "Name": "PC Complete",
+          "Addresses": [],
+          "Phones": [],
+          "ContactGroups": [],
+          "ContactPersons": []
+        },
+        "DateString": "2014-04-27T00:00:00",
+        "Date": "\/Date(1398513600000+1200)\/",
+        "DueDateString": "2014-05-04T00:00:00",
+        "DueDate": "\/Date(1399118400000+1200)\/",
+        "Status": "PAID",
+        "LineAmountTypes": "Exclusive",
+        "LineItems": [],
+        "SubTotal": 1085.00,
+        "TotalTax": 108.50,
+        "Total": 1193.50,
+        "UpdatedDateUTC": "\/Date(1221518713790+1200)\/",
+        "CurrencyCode": "AUD",
+        "FullyPaidOnDate": "\/Date(1399032000000+1200)\/"
+      },
+      {
+        "Type": "ACCREC",
+        "InvoiceID": "b75b3928-ab72-4424-8b93-9cdbbde4cd72",
+        "InvoiceNumber": "ORC1005",
+        "Reference": "",
+        "Payments": [],
+        "CreditNotes": [
+          {
+            "CreditNoteID": "50e98404-2fba-4031-af67-8ba4bb227c44",
+            "CreditNoteNumber": "CR1005",
+            "AppliedAmount": 550.00,
+            "DateString": "2014-04-28T00:00:00",
+            "Date": "\/Date(1398600000000+1200)\/",
+            "LineItems": [],
+            "Total": 550.00
+          }
+        ],
+        "AmountDue": 0.00,
+        "AmountPaid": 0.00,
+        "AmountCredited": 550.00,
+        "HasErrors": false,
+        "IsDiscounted": false,
+        "HasAttachments": false,
+        "Contact": {
+          "ContactID": "571a2414-81ff-4f8f-8498-d91d83793131",
+          "Name": "Bank West",
+          "Addresses": [],
+          "Phones": [],
+          "ContactGroups": [],
+          "ContactPersons": []
+        },
+        "DateString": "2014-04-28T00:00:00",
+        "Date": "\/Date(1398600000000+1200)\/",
+        "DueDateString": "2014-05-08T00:00:00",
+        "DueDate": "\/Date(1399464000000+1200)\/",
+        "Status": "PAID",
+        "LineAmountTypes": "Exclusive",
+        "LineItems": [],
+        "SubTotal": 500.00,
+        "TotalTax": 50.00,
+        "Total": 550.00,
+        "UpdatedDateUTC": "\/Date(1221591169030+1200)\/",
+        "CurrencyCode": "AUD",
+        "FullyPaidOnDate": "\/Date(1398600000000+1200)\/"
+      },
+      {
+        "Type": "ACCREC",
+        "InvoiceID": "290ef4c4-baec-492b-b4dd-c102826470ae",
+        "InvoiceNumber": "ORC1004",
+        "Reference": "",
+        "Payments": [
+          {
+            "PaymentID": "97ee2016-ac5a-4619-a515-46a954932daa",
+            "Date": "\/Date(1399032000000+1200)\/",
+            "Amount": 275.00,
+            "Reference": "",
+            "HasAccount": false,
+            "HasValidationErrors": false
+          }
+        ],
+        "CreditNotes": [],
+        "AmountDue": 0.00,
+        "AmountPaid": 275.00,
+        "AmountCredited": 0.00,
+        "SentToContact": true,
+        "HasErrors": false,
+        "IsDiscounted": false,
+        "HasAttachments": false,
+        "Contact": {
+          "ContactID": "79aa39ca-22b0-42c2-9026-78757a29d665",
+          "Name": "City Ambassadors Association",
+          "Addresses": [],
+          "Phones": [],
+          "ContactGroups": [],
+          "ContactPersons": []
+        },
+        "DateString": "2014-04-27T00:00:00",
+        "Date": "\/Date(1398513600000+1200)\/",
+        "DueDateString": "2014-05-07T00:00:00",
+        "DueDate": "\/Date(1399377600000+1200)\/",
+        "Status": "PAID",
+        "LineAmountTypes": "Exclusive",
+        "LineItems": [],
+        "SubTotal": 250.00,
+        "TotalTax": 25.00,
+        "Total": 275.00,
+        "UpdatedDateUTC": "\/Date(1221593406707+1200)\/",
+        "CurrencyCode": "AUD",
+        "FullyPaidOnDate": "\/Date(1399032000000+1200)\/"
+      },
+      {
+        "Type": "ACCREC",
+        "InvoiceID": "f571c38b-5be1-41e1-ad5a-ff6184284beb",
+        "InvoiceNumber": "ORC1001",
+        "Reference": "Portal proj",
+        "Payments": [
+          {
+            "PaymentID": "8ebc072b-b7cd-431c-972d-66ce0c3fde69",
+            "Date": "\/Date(1400068800000+1200)\/",
+            "Amount": 1469.60,
+            "Reference": "",
+            "HasAccount": false,
+            "HasValidationErrors": false
+          }
+        ],
+        "CreditNotes": [
+          {
+            "CreditNoteID": "3bffc09b-79f2-490d-b91b-c59b700b43a4",
+            "CreditNoteNumber": "CR1001",
+            "AppliedAmount": 26.40,
+            "DateString": "2014-05-13T00:00:00",
+            "Date": "\/Date(1399896000000+1200)\/",
+            "LineItems": [],
+            "Total": 26.40
+          }
+        ],
+        "AmountDue": 0.00,
+        "AmountPaid": 1469.60,
+        "AmountCredited": 26.40,
+        "SentToContact": true,
+        "HasErrors": false,
+        "IsDiscounted": false,
+        "HasAttachments": false,
+        "Contact": {
+          "ContactID": "860b99a9-0958-4c8d-a98f-bb1f092b16bb",
+          "Name": "DIISR - Small Business Services",
+          "Addresses": [],
+          "Phones": [],
+          "ContactGroups": [],
+          "ContactPersons": []
+        },
+        "DateString": "2014-05-03T00:00:00",
+        "Date": "\/Date(1399032000000+1200)\/",
+        "DueDateString": "2014-05-14T00:00:00",
+        "DueDate": "\/Date(1399982400000+1200)\/",
+        "Status": "PAID",
+        "LineAmountTypes": "Exclusive",
+        "LineItems": [],
+        "SubTotal": 1360.00,
+        "TotalTax": 136.00,
+        "Total": 1496.00,
+        "UpdatedDateUTC": "\/Date(1221593787537+1200)\/",
+        "CurrencyCode": "AUD",
+        "FullyPaidOnDate": "\/Date(1400068800000+1200)\/"
+      },
+      {
+        "Type": "ACCPAY",
+        "InvoiceID": "c963f2b0-cbe1-4abd-9ccc-7e512c942068",
+        "InvoiceNumber": "32051",
+        "Reference": "",
+        "Payments": [],
+        "CreditNotes": [],
+        "AmountDue": 0.00,
+        "AmountPaid": 0.00,
+        "AmountCredited": 0.00,
+        "HasErrors": false,
+        "IsDiscounted": false,
+        "HasAttachments": false,
+        "Contact": {
+          "ContactID": "d6851dc2-9ed9-4515-bc0b-810b09c06a6a",
+          "Name": "PowerDirect",
+          "Addresses": [],
+          "Phones": [],
+          "ContactGroups": [],
+          "ContactPersons": []
+        },
+        "DateString": "2014-05-28T00:00:00",
+        "Date": "\/Date(1401192000000+1200)\/",
+        "DueDateString": "2014-06-14T00:00:00",
+        "DueDate": "\/Date(1402660800000+1200)\/",
+        "Status": "DELETED",
+        "LineAmountTypes": "Exclusive",
+        "LineItems": [],
+        "SubTotal": 0.00,
+        "TotalTax": 0.00,
+        "Total": 0.00,
+        "UpdatedDateUTC": "\/Date(1221618485153+1200)\/",
+        "CurrencyCode": "AUD"
+      },
+      {
+        "Type": "ACCPAY",
+        "InvoiceID": "166f0588-d0ba-458c-b28a-8edd4c8fc463",
+        "InvoiceNumber": "",
+        "Reference": "",
+        "Payments": [
+          {
+            "PaymentID": "c3cf164e-a931-40f8-907c-d6505b47f3fb",
+            "Date": "\/Date(1399982400000+1200)\/",
+            "Amount": 75.90,
+            "Reference": "DD 112102",
+            "HasAccount": false,
+            "HasValidationErrors": false
+          }
+        ],
+        "CreditNotes": [],
+        "AmountDue": 0.00,
+        "AmountPaid": 75.90,
+        "AmountCredited": 0.00,
+        "HasErrors": false,
+        "IsDiscounted": false,
+        "HasAttachments": false,
+        "Contact": {
+          "ContactID": "416ab20c-5357-4beb-a740-e8d175d71efb",
+          "Name": "Swanston Security",
+          "Addresses": [],
+          "Phones": [],
+          "ContactGroups": [],
+          "ContactPersons": []
+        },
+        "DateString": "2014-05-03T00:00:00",
+        "Date": "\/Date(1399032000000+1200)\/",
+        "DueDateString": "2014-05-14T00:00:00",
+        "DueDate": "\/Date(1399982400000+1200)\/",
+        "Status": "PAID",
+        "LineAmountTypes": "Exclusive",
+        "LineItems": [],
+        "SubTotal": 69.00,
+        "TotalTax": 6.90,
+        "Total": 75.90,
+        "UpdatedDateUTC": "\/Date(1221695011570+1200)\/",
+        "CurrencyCode": "AUD",
+        "FullyPaidOnDate": "\/Date(1399982400000+1200)\/"
+      },
+      {
+        "Type": "ACCPAY",
+        "InvoiceID": "00c9511b-24b9-4190-a90a-8abf2fe9f4a0",
+        "InvoiceNumber": "O721-001",
+        "Reference": "",
+        "Payments": [
+          {
+            "PaymentID": "c9e30ee7-3a64-4875-8c4c-cfcb9d252cf9",
+            "Date": "\/Date(1399982400000+1200)\/",
+            "Amount": 35.75,
+            "Reference": "DD 112102",
+            "HasAccount": false,
+            "HasValidationErrors": false
+          }
+        ],
+        "CreditNotes": [],
+        "AmountDue": 0.00,
+        "AmountPaid": 35.75,
+        "AmountCredited": 0.00,
+        "HasErrors": false,
+        "IsDiscounted": false,
+        "HasAttachments": false,
+        "Contact": {
+          "ContactID": "abf272dd-6b1d-4829-af88-c57bf55855e3",
+          "Name": "Net Connect",
+          "Addresses": [],
+          "Phones": [],
+          "ContactGroups": [],
+          "ContactPersons": []
+        },
+        "DateString": "2014-05-01T00:00:00",
+        "Date": "\/Date(1398859200000+1200)\/",
+        "DueDateString": "2014-05-14T00:00:00",
+        "DueDate": "\/Date(1399982400000+1200)\/",
+        "Status": "PAID",
+        "LineAmountTypes": "Exclusive",
+        "LineItems": [],
+        "SubTotal": 32.50,
+        "TotalTax": 3.25,
+        "Total": 35.75,
+        "UpdatedDateUTC": "\/Date(1221695063603+1200)\/",
+        "CurrencyCode": "AUD",
+        "FullyPaidOnDate": "\/Date(1399982400000+1200)\/"
+      },
+      {
+        "Type": "ACCPAY",
+        "InvoiceID": "f9c857eb-64cd-4235-a078-d04b52c77ea7",
+        "InvoiceNumber": "31901",
+        "Reference": "",
+        "Payments": [
+          {
+            "PaymentID": "edca68b9-b97f-41fe-adf0-cbcee30711a7",
+            "Date": "\/Date(1399982400000+1200)\/",
+            "Amount": 385.00,
+            "Reference": "DD 112102",
+            "HasAccount": false,
+            "HasValidationErrors": false
+          }
+        ],
+        "CreditNotes": [],
+        "AmountDue": 0.00,
+        "AmountPaid": 385.00,
+        "AmountCredited": 0.00,
+        "HasErrors": false,
+        "IsDiscounted": false,
+        "HasAttachments": false,
+        "Contact": {
+          "ContactID": "d6851dc2-9ed9-4515-bc0b-810b09c06a6a",
+          "Name": "PowerDirect",
+          "Addresses": [],
+          "Phones": [],
+          "ContactGroups": [],
+          "ContactPersons": []
+        },
+        "DateString": "2014-04-27T00:00:00",
+        "Date": "\/Date(1398513600000+1200)\/",
+        "DueDateString": "2014-05-14T00:00:00",
+        "DueDate": "\/Date(1399982400000+1200)\/",
+        "Status": "PAID",
+        "LineAmountTypes": "Exclusive",
+        "LineItems": [],
+        "SubTotal": 350.00,
+        "TotalTax": 35.00,
+        "Total": 385.00,
+        "UpdatedDateUTC": "\/Date(1221695087197+1200)\/",
+        "CurrencyCode": "AUD",
+        "FullyPaidOnDate": "\/Date(1399982400000+1200)\/"
+      },
+      {
+        "Type": "ACCPAY",
+        "InvoiceID": "52ee4d67-cae4-462c-adb2-182c39017f3d",
+        "InvoiceNumber": "ICT 08",
+        "Reference": "",
+        "Payments": [
+          {
+            "PaymentID": "a826f56f-52b0-49cd-974f-dc6697fb33ca",
+            "Date": "\/Date(1397563200000+1200)\/",
+            "Amount": 218.90,
+            "Reference": "DD 111093",
+            "HasAccount": false,
+            "HasValidationErrors": false
+          }
+        ],
+        "CreditNotes": [],
+        "AmountDue": 0.00,
+        "AmountPaid": 218.90,
+        "AmountCredited": 0.00,
+        "HasErrors": false,
+        "IsDiscounted": false,
+        "HasAttachments": false,
+        "Contact": {
+          "ContactID": "e8b98c13-a424-41d2-ba0e-7b7621411e7a",
+          "Name": "Qantas",
+          "Addresses": [],
+          "Phones": [],
+          "ContactGroups": [],
+          "ContactPersons": []
+        },
+        "DateString": "2014-04-15T00:00:00",
+        "Date": "\/Date(1397476800000+1200)\/",
+        "DueDateString": "2014-04-22T00:00:00",
+        "DueDate": "\/Date(1398081600000+1200)\/",
+        "Status": "PAID",
+        "LineAmountTypes": "Exclusive",
+        "LineItems": [],
+        "SubTotal": 199.00,
+        "TotalTax": 19.90,
+        "Total": 218.90,
+        "UpdatedDateUTC": "\/Date(1221695111227+1200)\/",
+        "CurrencyCode": "AUD",
+        "FullyPaidOnDate": "\/Date(1397563200000+1200)\/"
+      },
+      {
+        "Type": "ACCREC",
+        "InvoiceID": "4fad1af2-b871-4ac5-a15a-3c5e32d2e2c4",
+        "InvoiceNumber": "ORC1003",
+        "Reference": "",
+        "Payments": [],
+        "CreditNotes": [
+          {
+            "CreditNoteID": "371cd138-1e5c-4ec1-a8c6-a1c10e8bdab1",
+            "CreditNoteNumber": "CR1003",
+            "AppliedAmount": 550.00,
+            "DateString": "2014-04-23T00:00:00",
+            "Date": "\/Date(1398168000000+1200)\/",
+            "LineItems": [],
+            "Total": 550.00
+          }
+        ],
+        "AmountDue": 0.00,
+        "AmountPaid": 0.00,
+        "AmountCredited": 550.00,
+        "SentToContact": true,
+        "HasErrors": false,
+        "IsDiscounted": false,
+        "HasAttachments": false,
+        "Contact": {
+          "ContactID": "1b2be6e9-8d58-4da9-aaf8-4fe5471b653c",
+          "Name": "Hamilton Smith Pty",
+          "Addresses": [],
+          "Phones": [],
+          "ContactGroups": [],
+          "ContactPersons": []
+        },
+        "DateString": "2014-04-14T00:00:00",
+        "Date": "\/Date(1397390400000+1200)\/",
+        "DueDateString": "2014-04-23T00:00:00",
+        "DueDate": "\/Date(1398168000000+1200)\/",
+        "Status": "PAID",
+        "LineAmountTypes": "Exclusive",
+        "LineItems": [],
+        "SubTotal": 500.00,
+        "TotalTax": 50.00,
+        "Total": 550.00,
+        "UpdatedDateUTC": "\/Date(1221695815330+1200)\/",
+        "CurrencyCode": "AUD",
+        "FullyPaidOnDate": "\/Date(1398168000000+1200)\/"
+      },
+      {
+        "Type": "ACCREC",
+        "InvoiceID": "1d1ba340-afa2-4f4c-8ff7-a147bda9a47b",
+        "InvoiceNumber": "ORC1008",
+        "Reference": "Monthly support",
+        "Payments": [
+          {
+            "PaymentID": "11730d01-ce3b-4770-93ca-e3cb868cbe21",
+            "Date": "\/Date(1398168000000+1200)\/",
+            "Amount": 550.00,
+            "Reference": "",
+            "HasAccount": false,
+            "HasValidationErrors": false
+          }
+        ],
+        "CreditNotes": [],
+        "AmountDue": 0.00,
+        "AmountPaid": 550.00,
+        "AmountCredited": 0.00,
+        "SentToContact": true,
+        "HasErrors": false,
+        "IsDiscounted": false,
+        "HasAttachments": false,
+        "Contact": {
+          "ContactID": "1b2be6e9-8d58-4da9-aaf8-4fe5471b653c",
+          "Name": "Hamilton Smith Pty",
+          "Addresses": [],
+          "Phones": [],
+          "ContactGroups": [],
+          "ContactPersons": []
+        },
+        "DateString": "2014-04-14T00:00:00",
+        "Date": "\/Date(1397390400000+1200)\/",
+        "DueDateString": "2014-04-23T00:00:00",
+        "DueDate": "\/Date(1398168000000+1200)\/",
+        "Status": "PAID",
+        "LineAmountTypes": "Exclusive",
+        "LineItems": [],
+        "SubTotal": 500.00,
+        "TotalTax": 50.00,
+        "Total": 550.00,
+        "UpdatedDateUTC": "\/Date(1221696664013+1200)\/",
+        "CurrencyCode": "AUD",
+        "FullyPaidOnDate": "\/Date(1398168000000+1200)\/"
+      },
+      {
+        "Type": "ACCREC",
+        "InvoiceID": "76e3f056-479f-417c-a72b-f3d767899b87",
+        "InvoiceNumber": "ORC1009",
+        "Reference": "Monthly support",
+        "Payments": [
+          {
+            "PaymentID": "3f13f41e-f6cc-4d1e-b6df-370e357c37c7",
+            "Date": "\/Date(1398168000000+1200)\/",
+            "Amount": 550.00,
+            "Reference": "",
+            "HasAccount": false,
+            "HasValidationErrors": false
+          }
+        ],
+        "CreditNotes": [],
+        "AmountDue": 0.00,
+        "AmountPaid": 550.00,
+        "AmountCredited": 0.00,
+        "SentToContact": true,
+        "HasErrors": false,
+        "IsDiscounted": false,
+        "HasAttachments": false,
+        "Contact": {
+          "ContactID": "755f1475-d255-43a8-bedc-5ea7fd26c71f",
+          "Name": "Yarra Transport",
+          "Addresses": [],
+          "Phones": [],
+          "ContactGroups": [],
+          "ContactPersons": []
+        },
+        "DateString": "2014-04-14T00:00:00",
+        "Date": "\/Date(1397390400000+1200)\/",
+        "DueDateString": "2014-04-23T00:00:00",
+        "DueDate": "\/Date(1398168000000+1200)\/",
+        "Status": "PAID",
+        "LineAmountTypes": "Exclusive",
+        "LineItems": [],
+        "SubTotal": 500.00,
+        "TotalTax": 50.00,
+        "Total": 550.00,
+        "UpdatedDateUTC": "\/Date(1221696674060+1200)\/",
+        "CurrencyCode": "AUD",
+        "FullyPaidOnDate": "\/Date(1398168000000+1200)\/"
+      },
+      {
+        "Type": "ACCREC",
+        "InvoiceID": "33e4123e-7cdd-4f05-9a0a-eb8adeb2b868",
+        "InvoiceNumber": "ORC1011",
+        "Reference": "Monthly support",
+        "Payments": [
+          {
+            "PaymentID": "f90d8ff2-d761-40a7-a434-7d748928cf4d",
+            "Date": "\/Date(1398168000000+1200)\/",
+            "Amount": 550.00,
+            "Reference": "",
+            "HasAccount": false,
+            "HasValidationErrors": false
+          }
+        ],
+        "CreditNotes": [],
+        "AmountDue": 0.00,
+        "AmountPaid": 550.00,
+        "AmountCredited": 0.00,
+        "SentToContact": true,
+        "HasErrors": false,
+        "IsDiscounted": false,
+        "HasAttachments": false,
+        "Contact": {
+          "ContactID": "6de0b0cf-560c-4503-aab3-e1543c329deb",
+          "Name": "Rex Media Group",
+          "Addresses": [],
+          "Phones": [],
+          "ContactGroups": [],
+          "ContactPersons": []
+        },
+        "DateString": "2014-04-14T00:00:00",
+        "Date": "\/Date(1397390400000+1200)\/",
+        "DueDateString": "2014-04-23T00:00:00",
+        "DueDate": "\/Date(1398168000000+1200)\/",
+        "Status": "PAID",
+        "LineAmountTypes": "Exclusive",
+        "LineItems": [],
+        "SubTotal": 500.00,
+        "TotalTax": 50.00,
+        "Total": 550.00,
+        "UpdatedDateUTC": "\/Date(1221696701797+1200)\/",
+        "CurrencyCode": "AUD",
+        "FullyPaidOnDate": "\/Date(1398168000000+1200)\/"
+      },
+      {
+        "Type": "ACCREC",
+        "InvoiceID": "5613938b-9e27-472e-92ae-3b038b669d10",
+        "InvoiceNumber": "ORC1010",
+        "Reference": "Monthly support",
+        "Payments": [
+          {
+            "PaymentID": "84f0f27e-add2-48ca-8cab-1013a9b171b6",
+            "Date": "\/Date(1398168000000+1200)\/",
+            "Amount": 550.00,
+            "Reference": "",
+            "HasAccount": false,
+            "HasValidationErrors": false
+          }
+        ],
+        "CreditNotes": [],
+        "AmountDue": 0.00,
+        "AmountPaid": 550.00,
+        "AmountCredited": 0.00,
+        "SentToContact": true,
+        "HasErrors": false,
+        "IsDiscounted": false,
+        "HasAttachments": false,
+        "Contact": {
+          "ContactID": "13cd4c47-baa6-4f07-93f6-6442310df4bf",
+          "Name": "Port Phillip Freight",
+          "Addresses": [],
+          "Phones": [],
+          "ContactGroups": [],
+          "ContactPersons": []
+        },
+        "DateString": "2014-04-14T00:00:00",
+        "Date": "\/Date(1397390400000+1200)\/",
+        "DueDateString": "2014-04-23T00:00:00",
+        "DueDate": "\/Date(1398168000000+1200)\/",
+        "Status": "PAID",
+        "LineAmountTypes": "Exclusive",
+        "LineItems": [],
+        "SubTotal": 500.00,
+        "TotalTax": 50.00,
+        "Total": 550.00,
+        "UpdatedDateUTC": "\/Date(1221696708903+1200)\/",
+        "CurrencyCode": "AUD",
+        "FullyPaidOnDate": "\/Date(1398168000000+1200)\/"
+      },
+      {
+        "Type": "ACCREC",
+        "InvoiceID": "962ef33f-c9d2-4602-9b9f-93a02bea23b3",
+        "InvoiceNumber": "ORC1002",
+        "Reference": "",
+        "Payments": [
+          {
+            "PaymentID": "3bc87a62-34f7-45ff-bcd8-be59e06be7eb",
+            "Date": "\/Date(1399032000000+1200)\/",
+            "Amount": 850.00,
+            "Reference": "Part",
+            "HasAccount": false,
+            "HasValidationErrors": false
+          }
+        ],
+        "CreditNotes": [],
+        "AmountDue": 250.00,
+        "AmountPaid": 850.00,
+        "AmountCredited": 0.00,
+        "SentToContact": true,
+        "HasErrors": false,
+        "IsDiscounted": false,
+        "HasAttachments": false,
+        "Contact": {
+          "ContactID": "0a4cf37b-a1a8-4753-9ee2-f9207f63a8ff",
+          "Name": "City Limousines",
+          "Addresses": [],
+          "Phones": [],
+          "ContactGroups": [],
+          "ContactPersons": []
+        },
+        "DateString": "2014-04-23T00:00:00",
+        "Date": "\/Date(1398168000000+1200)\/",
+        "DueDateString": "2014-05-03T00:00:00",
+        "DueDate": "\/Date(1399032000000+1200)\/",
+        "Status": "AUTHORISED",
+        "LineAmountTypes": "Exclusive",
+        "LineItems": [],
+        "SubTotal": 1000.00,
+        "TotalTax": 100.00,
+        "Total": 1100.00,
+        "UpdatedDateUTC": "\/Date(1221698764917+1200)\/",
+        "CurrencyCode": "AUD"
+      },
+      {
+        "Type": "ACCREC",
+        "InvoiceID": "803f70b0-56d9-4157-9787-41df271777a0",
+        "InvoiceNumber": "ORC1000",
+        "Reference": "RAC project",
+        "Payments": [
+          {
+            "PaymentID": "d8780cf7-a585-4998-a83a-29ab0c970c04",
+            "Date": "\/Date(1399464000000+1200)\/",
+            "Amount": 1155.00,
+            "Reference": "",
+            "HasAccount": false,
+            "HasValidationErrors": false
+          }
+        ],
+        "CreditNotes": [],
+        "AmountDue": 0.00,
+        "AmountPaid": 1155.00,
+        "AmountCredited": 0.00,
+        "SentToContact": true,
+        "HasErrors": false,
+        "IsDiscounted": false,
+        "HasAttachments": false,
+        "Contact": {
+          "ContactID": "3fc1fc6c-e5ff-4e40-b6f3-7eb535637d87",
+          "Name": "Kinnet & Jones",
+          "Addresses": [],
+          "Phones": [],
+          "ContactGroups": [],
+          "ContactPersons": []
+        },
+        "DateString": "2014-05-03T00:00:00",
+        "Date": "\/Date(1399032000000+1200)\/",
+        "DueDateString": "2014-05-14T00:00:00",
+        "DueDate": "\/Date(1399982400000+1200)\/",
+        "Status": "PAID",
+        "LineAmountTypes": "Exclusive",
+        "LineItems": [],
+        "SubTotal": 1050.00,
+        "TotalTax": 105.00,
+        "Total": 1155.00,
+        "UpdatedDateUTC": "\/Date(1221698970167+1200)\/",
+        "CurrencyCode": "AUD",
+        "FullyPaidOnDate": "\/Date(1399464000000+1200)\/"
+      },
+      {
+        "Type": "ACCREC",
+        "InvoiceID": "e3d96555-2876-4364-a46a-7551a4f52611",
+        "InvoiceNumber": "ORC1006",
+        "Reference": "",
+        "Payments": [
+          {
+            "PaymentID": "f41fd62d-48d2-4bab-975b-c770d1541014",
+            "Date": "\/Date(1399032000000+1200)\/",
+            "Amount": 1485.00,
+            "Reference": "",
+            "HasAccount": false,
+            "HasValidationErrors": false
+          }
+        ],
+        "CreditNotes": [],
+        "AmountDue": 0.00,
+        "AmountPaid": 1485.00,
+        "AmountCredited": 0.00,
+        "SentToContact": true,
+        "HasErrors": false,
+        "IsDiscounted": false,
+        "HasAttachments": false,
+        "Contact": {
+          "ContactID": "571a2414-81ff-4f8f-8498-d91d83793131",
+          "Name": "Bank West",
+          "Addresses": [],
+          "Phones": [],
+          "ContactGroups": [],
+          "ContactPersons": []
+        },
+        "DateString": "2014-04-20T00:00:00",
+        "Date": "\/Date(1397908800000+1200)\/",
+        "DueDateString": "2014-05-03T00:00:00",
+        "DueDate": "\/Date(1399032000000+1200)\/",
+        "Status": "PAID",
+        "LineAmountTypes": "Exclusive",
+        "LineItems": [],
+        "SubTotal": 1350.00,
+        "TotalTax": 135.00,
+        "Total": 1485.00,
+        "UpdatedDateUTC": "\/Date(1221698973933+1200)\/",
+        "CurrencyCode": "AUD",
+        "FullyPaidOnDate": "\/Date(1399032000000+1200)\/"
+      },
+      {
+        "Type": "ACCREC",
+        "InvoiceID": "7be9956d-5316-4f6b-a66a-d355b3f159b2",
+        "InvoiceNumber": "ORC1007",
+        "Reference": "CSD0845",
+        "Payments": [
+          {
+            "PaymentID": "f346e968-4b38-4a8b-89f0-21449e7d6751",
+            "Date": "\/Date(1399982400000+1200)\/",
+            "Amount": 6160.00,
+            "Reference": "",
+            "HasAccount": false,
+            "HasValidationErrors": false
+          }
+        ],
+        "CreditNotes": [],
+        "AmountDue": 0.00,
+        "AmountPaid": 6160.00,
+        "AmountCredited": 0.00,
+        "SentToContact": true,
+        "HasErrors": false,
+        "IsDiscounted": false,
+        "HasAttachments": false,
+        "Contact": {
+          "ContactID": "9d12a994-9640-4b75-95cc-3de1e9d0ef09",
+          "Name": "Petrie McLoud Watson & Associates",
+          "Addresses": [],
+          "Phones": [],
+          "ContactGroups": [],
+          "ContactPersons": []
+        },
+        "DateString": "2014-05-03T00:00:00",
+        "Date": "\/Date(1399032000000+1200)\/",
+        "DueDateString": "2014-05-14T00:00:00",
+        "DueDate": "\/Date(1399982400000+1200)\/",
+        "Status": "PAID",
+        "LineAmountTypes": "Exclusive",
+        "LineItems": [],
+        "SubTotal": 5600.00,
+        "TotalTax": 560.00,
+        "Total": 6160.00,
+        "UpdatedDateUTC": "\/Date(1221698988590+1200)\/",
+        "CurrencyCode": "AUD",
+        "FullyPaidOnDate": "\/Date(1399982400000+1200)\/"
+      },
+      {
+        "Type": "ACCREC",
+        "InvoiceID": "f5832195-5cd3-4660-ad3f-b73d9c64f263",
+        "InvoiceNumber": "ORC1012",
+        "Reference": "",
+        "Payments": [],
+        "CreditNotes": [],
+        "AmountDue": 660.00,
+        "AmountPaid": 0.00,
+        "AmountCredited": 0.00,
+        "SentToContact": true,
+        "HasErrors": false,
+        "IsDiscounted": false,
+        "HasAttachments": false,
+        "Contact": {
+          "ContactID": "0a4cf37b-a1a8-4753-9ee2-f9207f63a8ff",
+          "Name": "City Limousines",
+          "Addresses": [],
+          "Phones": [],
+          "ContactGroups": [],
+          "ContactPersons": []
+        },
+        "DateString": "2014-05-13T00:00:00",
+        "Date": "\/Date(1399896000000+1200)\/",
+        "DueDateString": "2014-05-29T00:00:00",
+        "DueDate": "\/Date(1401278400000+1200)\/",
+        "Status": "AUTHORISED",
+        "LineAmountTypes": "Exclusive",
+        "LineItems": [],
+        "SubTotal": 600.00,
+        "TotalTax": 60.00,
+        "Total": 660.00,
+        "UpdatedDateUTC": "\/Date(1222055625740+1200)\/",
+        "CurrencyCode": "AUD"
+      },
+      {
+        "Type": "ACCPAY",
+        "InvoiceID": "625ffe1b-f5d8-438e-a376-981de5f5a733",
+        "InvoiceNumber": "",
+        "Reference": "",
+        "Payments": [
+          {
+            "PaymentID": "eff63533-ef0d-4ac9-a845-ccc696004328",
+            "Date": "\/Date(1401451200000+1200)\/",
+            "Amount": 104.50,
+            "Reference": "DD Ref 112974",
+            "HasAccount": false,
+            "HasValidationErrors": false
+          }
+        ],
+        "CreditNotes": [],
+        "AmountDue": 0.00,
+        "AmountPaid": 104.50,
+        "AmountCredited": 0.00,
+        "HasErrors": false,
+        "IsDiscounted": false,
+        "HasAttachments": false,
+        "Contact": {
+          "ContactID": "8bb6931d-2865-44e9-9a23-ed1fb9c7a46c",
+          "Name": "Central Documentation Services",
+          "Addresses": [],
+          "Phones": [],
+          "ContactGroups": [],
+          "ContactPersons": []
+        },
+        "DateString": "2014-05-24T00:00:00",
+        "Date": "\/Date(1400846400000+1200)\/",
+        "DueDateString": "2014-05-31T00:00:00",
+        "DueDate": "\/Date(1401451200000+1200)\/",
+        "Status": "PAID",
+        "LineAmountTypes": "Exclusive",
+        "LineItems": [],
+        "SubTotal": 95.00,
+        "TotalTax": 9.50,
+        "Total": 104.50,
+        "UpdatedDateUTC": "\/Date(1222229481233+1200)\/",
+        "CurrencyCode": "AUD",
+        "FullyPaidOnDate": "\/Date(1401451200000+1200)\/"
+      },
+      {
+        "Type": "ACCPAY",
+        "InvoiceID": "387db692-26ac-47e6-b6cc-015343809bda",
+        "InvoiceNumber": "",
+        "Reference": "",
+        "Payments": [
+          {
+            "PaymentID": "58dd1172-11e5-4922-8daf-51ecccc72143",
+            "Date": "\/Date(1401451200000+1200)\/",
+            "Amount": 170.50,
+            "Reference": "DD Ref 112974",
+            "HasAccount": false,
+            "HasValidationErrors": false
+          }
+        ],
+        "CreditNotes": [],
+        "AmountDue": 0.00,
+        "AmountPaid": 170.50,
+        "AmountCredited": 0.00,
+        "HasErrors": false,
+        "IsDiscounted": false,
+        "HasAttachments": false,
+        "Contact": {
+          "ContactID": "dbb1f0b5-a71b-4458-8462-104acd0fec6b",
+          "Name": "MCO Cleaning Services",
+          "Addresses": [],
+          "Phones": [],
+          "ContactGroups": [],
+          "ContactPersons": []
+        },
+        "DateString": "2014-05-14T00:00:00",
+        "Date": "\/Date(1399982400000+1200)\/",
+        "DueDateString": "2014-05-29T00:00:00",
+        "DueDate": "\/Date(1401278400000+1200)\/",
+        "Status": "PAID",
+        "LineAmountTypes": "Exclusive",
+        "LineItems": [],
+        "SubTotal": 155.00,
+        "TotalTax": 15.50,
+        "Total": 170.50,
+        "UpdatedDateUTC": "\/Date(1222229555093+1200)\/",
+        "CurrencyCode": "AUD",
+        "FullyPaidOnDate": "\/Date(1401451200000+1200)\/"
+      },
+      {
+        "Type": "ACCPAY",
+        "InvoiceID": "de5d9c29-21b3-4342-958b-ed72c4bd7ab0",
+        "InvoiceNumber": "97781",
+        "Reference": "",
+        "Payments": [
+          {
+            "PaymentID": "1a950e3d-aea0-4f33-b300-f2969a34a96f",
+            "Date": "\/Date(1401451200000+1200)\/",
+            "Amount": 137.89,
+            "Reference": "DD Ref 112974",
+            "HasAccount": false,
+            "HasValidationErrors": false
+          }
+        ],
+        "CreditNotes": [],
+        "AmountDue": 0.00,
+        "AmountPaid": 137.89,
+        "AmountCredited": 0.00,
+        "HasErrors": false,
+        "IsDiscounted": false,
+        "HasAttachments": false,
+        "Contact": {
+          "ContactID": "baeed0f3-7989-4874-99b3-59f23032cb73",
+          "Name": "Vodafone",
+          "Addresses": [],
+          "Phones": [],
+          "ContactGroups": [],
+          "ContactPersons": []
+        },
+        "DateString": "2014-05-15T00:00:00",
+        "Date": "\/Date(1400068800000+1200)\/",
+        "DueDateString": "2014-05-29T00:00:00",
+        "DueDate": "\/Date(1401278400000+1200)\/",
+        "Status": "PAID",
+        "LineAmountTypes": "Exclusive",
+        "LineItems": [],
+        "SubTotal": 125.35,
+        "TotalTax": 12.54,
+        "Total": 137.89,
+        "UpdatedDateUTC": "\/Date(1222229658797+1200)\/",
+        "CurrencyCode": "AUD",
+        "FullyPaidOnDate": "\/Date(1401451200000+1200)\/"
+      },
+      {
+        "Type": "ACCPAY",
+        "InvoiceID": "7dae876a-b424-436b-a4e6-17b3fdeec80c",
+        "InvoiceNumber": "",
+        "Reference": "",
+        "Payments": [
+          {
+            "PaymentID": "4662b9f6-7ed0-4f2a-b3a2-107c1d66b4ce",
+            "Date": "\/Date(1401451200000+1200)\/",
+            "Amount": 250.00,
+            "Reference": "DD Ref 112974",
+            "HasAccount": false,
+            "HasValidationErrors": false
+          }
+        ],
+        "CreditNotes": [
+          {
+            "CreditNoteID": "4f67130a-749a-4ee6-98b2-743adbc11245",
+            "CreditNoteNumber": "",
+            "AppliedAmount": 200.00,
+            "DateString": "2014-06-17T00:00:00",
+            "Date": "\/Date(1402920000000+1200)\/",
+            "LineItems": [],
+            "Total": 200.00
+          }
+        ],
+        "AmountDue": 0.00,
+        "AmountPaid": 250.00,
+        "AmountCredited": 200.00,
+        "HasErrors": false,
+        "IsDiscounted": false,
+        "HasAttachments": false,
+        "Contact": {
+          "ContactID": "0f471ca5-15c9-405e-a1b9-7cc35194b673",
+          "Name": "Party Hire",
+          "Addresses": [],
+          "Phones": [],
+          "ContactGroups": [],
+          "ContactPersons": []
+        },
+        "DateString": "2014-05-16T00:00:00",
+        "Date": "\/Date(1400155200000+1200)\/",
+        "DueDateString": "2014-05-23T00:00:00",
+        "DueDate": "\/Date(1400760000000+1200)\/",
+        "Status": "PAID",
+        "LineAmountTypes": "Exclusive",
+        "LineItems": [],
+        "SubTotal": 450.00,
+        "TotalTax": 0.00,
+        "Total": 450.00,
+        "UpdatedDateUTC": "\/Date(1222229718420+1200)\/",
+        "CurrencyCode": "AUD",
+        "FullyPaidOnDate": "\/Date(1401451200000+1200)\/"
+      }
+    ]
+  },
+  
+  'GET /Invoices/0032f627-3156-4d30-9b1c-4d3b994dc921': {
+    "Id": "920be7e0-d05b-48f3-aab3-0a612f6800f7",
+    "Status": "OK",
+    "ProviderName": "Test",
+    "DateTimeUTC": "\/Date(1405560689722)\/",
+    "Invoices": [{
+      "Type": "ACCPAY",
+      "InvoiceID": "0032f627-3156-4d30-9b1c-4d3b994dc921",
+      "InvoiceNumber": "9871",
+      "Reference": "",
+      "Payments": [
+        {
+          "PaymentID": "22974891-3689-4694-9ee7-fd2ba917af55",
+          "Date": "\/Date(1398081600000+1200)\/",
+          "Amount": 148.50,
+          "Reference": "Chq 409",
+          "HasAccount": false,
+          "HasValidationErrors": false
+        }
+      ],
+      "CreditNotes": [],
+      "AmountDue": 0.00,
+      "AmountPaid": 148.50,
+      "AmountCredited": 0.00,
+      "HasErrors": false,
+      "IsDiscounted": false,
+      "HasAttachments": false,
+      "Contact": {
+        "ContactID": "d6a384fb-f46f-41a3-8ac7-b7bc9e0b5efa",
+        "Name": "Melrose Parking",
+        "Addresses": [],
+        "Phones": [],
+        "ContactGroups": [],
+        "ContactPersons": []
+      },
+      "DateString": "2014-04-14T00:00:00",
+      "Date": "\/Date(1397390400000+1200)\/",
+      "DueDateString": "2014-04-23T00:00:00",
+      "DueDate": "\/Date(1398168000000+1200)\/",
+      "Status": "PAID",
+      "LineAmountTypes": "Exclusive",
+      "LineItems": [],
+      "SubTotal": 135.00,
+      "TotalTax": 13.50,
+      "Total": 148.50,
+      "UpdatedDateUTC": "\/Date(1221517731500+1200)\/",
+      "CurrencyCode": "AUD",
+      "FullyPaidOnDate": "\/Date(1398081600000+1200)\/"
+    }]
+  },
+  
+  'POST /Invoices': {
+    "Id": "72dcdcd4-eb60-4816-9389-3e15f294df5f",
+    "Status": "OK",
+    "ProviderName": "Test",
+    "DateTimeUTC": "\/Date(1405568978328)\/",
+    "Invoices": [
+      {
+        "Type": "ACCREC",
+        "InvoiceID": "90218f8b-ae80-4f6d-9c90-9236b17b8407",
+        "InvoiceNumber": "ORC1043",
+        "Reference": "",
+        "Payments": [],
+        "CreditNotes": [],
+        "AmountDue": 924.00,
+        "AmountPaid": 0.00,
+        "SentToContact": false,
+        "CurrencyRate": 1.000000,
+        "HasErrors": false,
+        "IsDiscounted": false,
+        "Contact": {
+          "ContactID": "b5819f56-3815-4e36-b41a-cd600bc6cea5",
+          "ContactStatus": "ACTIVE",
+          "Name": "Nathan Hoad",
+          "EmailAddress": "",
+          "BankAccountDetails": "",
+          "Addresses": [
+            {
+              "AddressType": "STREET",
+              "City": "",
+              "Region": "",
+              "PostalCode": "",
+              "Country": ""
+            },
+            {
+              "AddressType": "POBOX",
+              "City": "",
+              "Region": "",
+              "PostalCode": "",
+              "Country": ""
+            }
+          ],
+          "Phones": [
+            {
+              "PhoneType": "DEFAULT",
+              "PhoneNumber": "",
+              "PhoneAreaCode": "",
+              "PhoneCountryCode": ""
+            },
+            {
+              "PhoneType": "MOBILE",
+              "PhoneNumber": "",
+              "PhoneAreaCode": "",
+              "PhoneCountryCode": ""
+            },
+            {
+              "PhoneType": "FAX",
+              "PhoneNumber": "",
+              "PhoneAreaCode": "",
+              "PhoneCountryCode": ""
+            },
+            {
+              "PhoneType": "DDI",
+              "PhoneNumber": "",
+              "PhoneAreaCode": "",
+              "PhoneCountryCode": ""
+            }
+          ],
+          "UpdatedDateUTC": "\/Date(1405362700003+1200)\/",
+          "ContactGroups": [],
+          "IsSupplier": false,
+          "IsCustomer": true,
+          "ContactPersons": []
+        },
+        "DateString": "2014-07-17T00:00:00",
+        "Date": "\/Date(1405512000000+1200)\/",
+        "DueDateString": "2014-12-01T00:00:00",
+        "DueDate": "\/Date(1417345200000+1300)\/",
+        "Status": "DRAFT",
+        "LineAmountTypes": "Exclusive",
+        "LineItems": [
+          {
+            "Description": "This is a thing",
+            "UnitAmount": 120.00,
+            "TaxType": "OUTPUT",
+            "TaxAmount": 84.00,
+            "LineAmount": 840.00,
+            "AccountCode": "200",
+            "Tracking": [],
+            "Quantity": 7.0000,
+            "ValidationErrors": []
+          }
+        ],
+        "SubTotal": 840.00,
+        "TotalTax": 84.00,
+        "Total": 924.00,
+        "UpdatedDateUTC": "\/Date(1405525777877+1200)\/",
+        "CurrencyCode": "AUD",
+        "Warnings": []
+      }
+    ]
+  },
+  
+  
+  'POST /Invoices/0032f627-3156-4d30-9b1c-4d3b994dc921': {
+    "Id": "920be7e0-d05b-48f3-aab3-0a612f6800f7",
+    "Status": "OK",
+    "ProviderName": "Test",
+    "DateTimeUTC": "\/Date(1405560689722)\/",
+    "Invoices": [{
+      "Type": "ACCPAY",
+      "InvoiceID": "0032f627-3156-4d30-9b1c-4d3b994dc921",
+      "InvoiceNumber": "9871",
+      "Reference": "Test",
+      "Payments": [
+        {
+          "PaymentID": "22974891-3689-4694-9ee7-fd2ba917af55",
+          "Date": "\/Date(1398081600000+1200)\/",
+          "Amount": 148.50,
+          "Reference": "Chq 409",
+          "HasAccount": false,
+          "HasValidationErrors": false
+        }
+      ],
+      "CreditNotes": [],
+      "AmountDue": 0.00,
+      "AmountPaid": 148.50,
+      "AmountCredited": 0.00,
+      "HasErrors": false,
+      "IsDiscounted": false,
+      "HasAttachments": false,
+      "Contact": {
+        "ContactID": "d6a384fb-f46f-41a3-8ac7-b7bc9e0b5efa",
+        "Name": "Melrose Parking",
+        "Addresses": [],
+        "Phones": [],
+        "ContactGroups": [],
+        "ContactPersons": []
+      },
+      "DateString": "2014-04-14T00:00:00",
+      "Date": "\/Date(1397390400000+1200)\/",
+      "DueDateString": "2014-04-23T00:00:00",
+      "DueDate": "\/Date(1398168000000+1200)\/",
+      "Status": "PAID",
+      "LineAmountTypes": "Exclusive",
+      "LineItems": [],
+      "SubTotal": 135.00,
+      "TotalTax": 13.50,
+      "Total": 148.50,
+      "UpdatedDateUTC": "\/Date(1221517731500+1200)\/",
+      "CurrencyCode": "AUD",
+      "FullyPaidOnDate": "\/Date(1398081600000+1200)\/"
+    }]
+  },
+  
+  
+  'POST /Invoices/0032f627-3156-4d30-9b1c-4d3b994dc922': {
+    "Id": "920be7e0-d05b-48f3-aab3-0a612f6800f7",
+    "Status": "OK",
+    "ProviderName": "Test",
+    "DateTimeUTC": "\/Date(1405560689722)\/",
+    "Invoices": [{
+      "Type": "ACCPAY",
+      "InvoiceID": "0032f627-3156-4d30-9b1c-4d3b994dc922",
+      "InvoiceNumber": "9871",
+      "Reference": "Test",
+      "Payments": [
+        {
+          "PaymentID": "22974891-3689-4694-9ee7-fd2ba917af55",
+          "Date": "\/Date(1398081600000+1200)\/",
+          "Amount": 148.50,
+          "Reference": "Chq 409",
+          "HasAccount": false,
+          "HasValidationErrors": false
+        }
+      ],
+      "CreditNotes": [],
+      "AmountDue": 0.00,
+      "AmountPaid": 148.50,
+      "AmountCredited": 0.00,
+      "HasErrors": false,
+      "IsDiscounted": false,
+      "HasAttachments": false,
+      "Contact": {
+        "ContactID": "d6a384fb-f46f-41a3-8ac7-b7bc9e0b5efa",
+        "Name": "Melrose Parking",
+        "Addresses": [],
+        "Phones": [],
+        "ContactGroups": [],
+        "ContactPersons": []
+      },
+      "DateString": "2014-04-14T00:00:00",
+      "Date": "\/Date(1397390400000+1200)\/",
+      "DueDateString": "2014-04-23T00:00:00",
+      "DueDate": "\/Date(1398168000000+1200)\/",
+      "Status": "DELETED",
+      "LineAmountTypes": "Exclusive",
+      "LineItems": [],
+      "SubTotal": 135.00,
+      "TotalTax": 13.50,
+      "Total": 148.50,
+      "UpdatedDateUTC": "\/Date(1221517731500+1200)\/",
+      "CurrencyCode": "AUD",
+      "FullyPaidOnDate": "\/Date(1398081600000+1200)\/"
+    }]
+  }
+}  
+  

@@ -1,0 +1,40 @@
+{
+  "name": "xero-extended",
+  "version": "0.0.7",
+  "dependencies": {
+    "oauth": "0.9.10",
+    "easyxml": "0.1.0",
+    "moment": "*"
+  },
+  "devDependencies": {
+    "mocha": "1.x",
+    "should": "*"
+  },
+  "description": "Xero.com Node Library",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nathanhoad/xero.git"
+  },
+  "keywords": [
+    "xero",
+    "node",
+    "nodejs"
+  ],
+  "author": {
+    "name": "thallium205",
+    "url": "https://github.com/thallium205"
+  },
+  "contributors": {
+    "name": "nathanhoad",
+    "url": "http://nathanhoad.net"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "bugs": {
+    "url": "https://github.com/nathanhoad/xero/issues"
+  },
+  "homepage": "https://github.com/nathanhoad/xero"
+}
